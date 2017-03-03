@@ -1,0 +1,8 @@
+{
+  "firstName" : "FrodoWithCountry",
+  "address" : {
+    "town" : "Meyrin",
+    "street" : "Route de Meyrin",
+    "houseNumber" : "385"
+  }
+}

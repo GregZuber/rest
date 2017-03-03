@@ -1,4 +1,4 @@
-package model;
+package ch.cern.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,13 +14,19 @@ public class Address {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
 
-  private String name;
+  private String town;
+  private String street;
+  private Integer houseNumber;
 
-  public String getName() {
-    return name;
+  public String getTown() {
+    return town;
   }
 
-  public void setName(String name) {
-    this.name = name;
+  public String getStreet() {
+    return street;
+  }
+
+  public Integer getHouseNumber() {
+    return houseNumber;
   }
 }

@@ -1,4 +1,4 @@
-package model;
+package ch.cern.model;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
