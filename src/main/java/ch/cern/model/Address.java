@@ -22,11 +22,23 @@ public class Address {
     return town;
   }
 
+  public void setTown(String town) {
+    this.town = town;
+  }
+
   public String getStreet() {
     return street;
   }
 
+  public void setStreet(String street) {
+    this.street = street;
+  }
+
   public Integer getHouseNumber() {
     return houseNumber;
+  }
+
+  public void setHouseNumber(Integer houseNumber) {
+    this.houseNumber = houseNumber;
   }
 }
